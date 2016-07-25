@@ -41,15 +41,6 @@ $ ionic build
 $ cordova plugin add cordova-plugin-camera
 
 
-上传/下载文件组件:
-$ cordova plugin add cordova-plugin-file-transfer
-
-剪切板 :
-$ cordova plugin add https://github.com/VersoSolutions/CordovaClipboard
-
-消息通知:
-$ cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications
-
 ```
 [白名单:]()
 
@@ -59,6 +50,27 @@ $ cordova piugin add cordova-plugin-whitelist
 
 ```
 
+[上传/下载文件组件:]()
+
+```
+
+$ cordova plugin add cordova-plugin-file-transfer
+
+```
+
+[剪切板 :]()
+```
+
+$ cordova plugin add https://github.com/VersoSolutions/CordovaClipboard
+
+```
+
+[消息通知:]()
+```
+
+$ cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications
+
+```
 ###### 其他命令
 
 ```
