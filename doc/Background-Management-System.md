@@ -2,7 +2,7 @@
 #### [1]相关第三方类库及示例:
 ##### (1) react
 ##### (2) react-router
-##### (3)  推荐教程[Redux 中文文档](http://cn.redux.js.org/index.html)
+##### (3) redux 推荐教程:[Redux 中文文档](http://cn.redux.js.org/index.html)
 ###### 要点:
 - 应用中所有的 state 都以一个对象树的形式储存在一个单一的 store 中。
 - 惟一改变 state 的办法是触发 action，一个描述发生什么的对象。
