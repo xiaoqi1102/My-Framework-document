@@ -11,9 +11,23 @@
 ```
 安装:
 $ npm install ionic -g 
-启动服务器
+
+启动服务器:
 $ ionic serve
 
+添加平台:
+android:
+$ ionic platform add android
+ios:
+$ ionic platform add ios
+
+打包:
+安卓包:
+$ ionic build android
+ios 包:
+$ ionic build ios
+打包全部平台:
+$ ionic build 
 ```
 ##### cordova
 ##### react
