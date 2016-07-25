@@ -47,10 +47,26 @@ $ cordova plugin add cordova-plugin-camera
 $ cordova piugin add cordova-plugin-whitelist
 
 上传/下载文件组件:
-$cordova plugin add cordova-plugin-file-transfer
+$ cordova plugin add cordova-plugin-file-transfer
 
 剪切板 :
-cordova plugin add https://github.com/VersoSolutions/CordovaClipboard
+$ cordova plugin add https://github.com/VersoSolutions/CordovaClipboard
+
+消息通知:
+$ cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications
+
+
+```
+###### 其他命令
+
+```
+
+查看插件列表:
+$ cordova plugin ls
+
+移除某个插件:
+$ corodva plugin rm cordova-plugin-whitelist
+
 ```
 ##### react
 ##### redux
