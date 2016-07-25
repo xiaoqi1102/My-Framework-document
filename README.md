@@ -16,16 +16,21 @@ $ npm install ionic -g
 $ ionic serve
 
 添加平台:
+
 android:
 $ ionic platform add android
+
 ios:
 $ ionic platform add ios
 
 打包:
+
 安卓包:
 $ ionic build android
+
 ios 包:
 $ ionic build ios
+
 打包全部平台:
 $ ionic build 
 ```
@@ -33,9 +38,19 @@ $ ionic build
 
 ###### 常用插件:
 
-- 相机:
+
 ```
+相机:
 $ cordova plugin add cordova-plugin-camera
+
+白名单:
+$ cordova piugin add cordova-plugin-whitelist
+
+上传/下载文件组件:
+$cordova plugin add cordova-plugin-file-transfer
+
+剪切板 :
+cordova plugin add https://github.com/VersoSolutions/CordovaClipboard
 ```
 ##### react
 ##### redux
