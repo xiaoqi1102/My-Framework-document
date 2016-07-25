@@ -126,6 +126,7 @@ export default Account;
 - react-router 有多种路由可选,browserHistory 必须有服务器端支持 ,没有服务器端支持的同学自觉使用 hashHistory
 
 ##### (7) [redux-chunk](https://github.com/gaearon/redux-thunk)
+###### 说明:用于使用异步action,用法比较简单,在项目中加配置即可
 
 ```
 import { createStore, applyMiddleware } from 'redux';
@@ -140,7 +141,7 @@ const store = createStore(
 
 ```
 
-###### 说明:用于使用异步action,用法比较简单,在项目中加配置即可
+
 ##### (8) webpack
 ###### 说明:用于jsx css img 等文件的编译打包方案
 ###### 要点:
