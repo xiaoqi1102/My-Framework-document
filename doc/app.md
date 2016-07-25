@@ -7,9 +7,11 @@
 > * redux react-redux redux-thunk 做状态管理
 
 #### [1] 框架主要思路:
+
 - 单向数据流
 - react 基于state状态机的dom渲染,推荐文章:[React 源码剖析系列 － 解密 setState](https://zhuanlan.zhihu.com/p/20328570?refer=purerender)
 - react 生命周期,推荐文章:[React 源码剖析系列 － 生命周期的管理艺术](https://zhuanlan.zhihu.com/p/20312691?refer=purerender)
+
 #### [2]相关第三方类库及示例:
 ##### (1)ionic 
 ###### 使用示例:
