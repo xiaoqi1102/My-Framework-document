@@ -127,9 +127,6 @@ export default Account;
 约定:
 - package.json 的scripts 存储了打包编译的命令 如:
 
-> 一般来说开发测试的命令为: npm start
-> 打包生成生成生产环境的文件: npm run build
-
 ```
  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -138,3 +135,5 @@ export default Account;
   },
 
 ```
+> *  一般来说开发测试的命令为: npm start
+> *  打包生成生成生产环境的文件: npm run build
