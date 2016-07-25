@@ -102,12 +102,39 @@ hello I am {this.state.name};
 )
 }
 }
-
+//将组件暴露出去
 export default Account;
 ```
-##### (4) redux
+##### (4) redux 推荐教程[Redux 中文文档](http://cn.redux.js.org/index.html)
+###### 要点:
+- 应用中所有的 state 都以一个对象树的形式储存在一个单一的 store 中。
+- 惟一改变 state 的办法是触发 action，一个描述发生什么的对象。
+- 为了描述 action 如何改变 state 树，你需要编写 reducers。
 ##### (5) react-redux
-##### (6) react-router
-##### (7) redux-chunk
+##### (6) [react-router](https://github.com/reactjs/react-router)
+###### 要点:
+- react-router 有多种路由可选,browserHistory 必须有服务器端支持 ,没有服务器端支持的同学自觉使用 hashHistory
+
+##### (7) [redux-chunk](https://github.com/gaearon/redux-thunk)
+###### 说明:用于使用异步action,用法比较简单,在项目中加配置即可
 ##### (8) webpack
+###### 说明:用于jsx css img 等文件的编译打包方案
+###### 要点:
+- 掌握loader 加载器的配置  
+- webpack的编译速度优化 
+
 [3] 约定及注意事项
+约定:
+- package.json 的scripts 存储了打包编译的命令 如:
+
+> 一般来说开发测试的命令为: npm start
+> 打包生成生成生产环境的文件: npm run build
+
+```
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.build.config.js -w --colors --profile --display-modules",
+    "start": "webpack-dev-server --config webpack.dev.config.js --devtool eval --progress --hot --colors --content-base build"
+  },
+
+```
