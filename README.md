@@ -5,13 +5,13 @@
 
 ## 二.详情
 ### 1. app
-#### 组件化思路:
-#### 框架主要思路:
+#### [1] 组件化思路:
+#### [2] 框架主要思路:
 - 单向数据流
 - react 基于状态机的dom渲染
 
-#### 主要技术:
-##### ionic 
+#### [3]主要技术:
+##### (1)ionic 
 ###### 使用示例:
 ```
 安装:
@@ -39,7 +39,7 @@ $ ionic build ios
 打包全部平台:
 $ ionic build 
 ```
-##### cordova
+##### (2)cordova
 
 ###### 常用插件:
 
@@ -73,25 +73,26 @@ $ cordova plugin ls
 $ corodva plugin rm cordova-plugin-whitelist
 
 ```
-##### react
-##### redux
-##### react-redux
-##### react-router
-##### redux-chunk
-##### webpack
+##### (3) react
+##### (4) redux
+##### (5) react-redux
+##### (6) react-router
+##### (7) redux-chunk
+##### (8) webpack
+
 ### 2. 后台管理系统
-#### 主要技术:
-##### react
-##### react-router
-##### redux
-##### redux-thunk
-##### react-bootstrap
+#### [1]主要技术:
+##### (1) react
+##### (2) react-router
+##### (3) redux
+##### (4) redux-thunk
+##### (5) react-bootstrap
 ### 3. 移动端多页应用程序
-#### 主要技术:
-##### webpack
-##### gulp
-##### ES6
-##### handlebars
+#### [1]主要技术:
+##### (1) webpack
+##### (2) gulp
+##### (3) ES6
+##### (4) handlebars
 
 
 
