@@ -25,7 +25,15 @@ console.log('get data');
 
 ```
 
-> * 对象扩张 Object.assign 等方法
+> * 对象扩张 Object.assign 等方法 示例:
+
+```
+let a={a:123},b={name:'myName'}; 
+let c = Object.assign({},a,b);
+console.log(c);//Object {a: 123, name: "myName"}
+
+```
+
 > * 数组扩张  Array.find() 等方法
 
 ##### (4) handlebars [js模版引擎handlebars.js实用教程](http://www.cnblogs.com/iyangyuan/archive/2013/12/12/3471227.html)
