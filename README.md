@@ -45,7 +45,7 @@ $ ionic build
 
 
 ```
-[相机](https://www.npmjs.com/package/cordova-plugin-camera):
+相机:
 $ cordova plugin add cordova-plugin-camera
 
 白名单:
