@@ -110,6 +110,7 @@ export default Account;
 - 应用中所有的 state 都以一个对象树的形式储存在一个单一的 store 中。
 - 惟一改变 state 的办法是触发 action，一个描述发生什么的对象。
 - 为了描述 action 如何改变 state 树，你需要编写 reducers。
+
 ##### (5) react-redux
 ##### (6) [react-router](https://github.com/reactjs/react-router)
 ###### 要点:
@@ -123,10 +124,10 @@ export default Account;
 - 掌握loader 加载器的配置  
 - webpack的编译速度优化 
 
-[3] 约定及注意事项
+#### [3] 约定及注意事项
 约定:
 - package.json 的scripts 存储了打包编译的命令 如:
-
+- 将用于开发环境的webpack 配置文件和 生产环境的配置文件分开(app架构暂时没有分离,有待优化)
 ```
  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
