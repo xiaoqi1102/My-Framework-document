@@ -147,7 +147,9 @@ const store = createStore(
 ###### 要点:
 - 掌握loader 加载器的配置  
 - webpack的编译速度优化 
-
+##### (9) [material-ui@0.14.4](http://www.material-ui.com/v0.14.4/)
+###### 说明:
+> 使用material-ui 中的一些组件
 #### [3] 约定及注意事项
 约定:
 - package.json 的scripts 存储了打包编译的命令 如:
