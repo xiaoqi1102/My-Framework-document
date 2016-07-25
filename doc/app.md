@@ -99,7 +99,7 @@ hello I am account;
 }
 }
 
-export default Account;a
+export default Account;
 ```
 ##### (4) redux
 ##### (5) react-redux
