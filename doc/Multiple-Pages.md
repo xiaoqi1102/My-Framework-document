@@ -34,7 +34,13 @@ console.log(c);//Object {a: 123, name: "myName"}
 
 ```
 
-> * 数组扩张  Array.find() 等方法
+> * 数组扩张  Array.find() 等方法,示例:
+
+```
+let array=[{id:1},{id:2}];
+let result=array.find(function(item,index){ return item.id==1});
+console.log(result);
+```
 
 ##### (4) handlebars [js模版引擎handlebars.js实用教程](http://www.cnblogs.com/iyangyuan/archive/2013/12/12/3471227.html)
 ##### (5) less
