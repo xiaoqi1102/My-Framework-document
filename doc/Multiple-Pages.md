@@ -14,7 +14,32 @@
 
 ##### (3) ES6 推荐教程:[阮一峰ES6入门教程](http://es6.ruanyifeng.com/)
 ###### 要点:
-> * Promise
+> * Promise 示例:
+```
+let getData=(id)=>{
+   return new Promise(function(resolve,reject){
+   $.ajax({
+   url:'http://192.168.1.107:4000/account',
+   type:'get',
+   data:{accountId:id},
+   success:function(res){
+    resolve(res)
+   },
+   error(err){
+   reject(err);
+   }
+   }) 
+   })
+};
+//推荐使用promise的方式 添加回调
+getData('1212ads').then(function(res){
+console.log(res)
+
+},function(err){
+console.log(err)
+})
+
+```
 > * 箭头函数 
 
 ```
@@ -43,7 +68,7 @@ console.log(result);
 ```
 
 ##### (4) handlebars [js模版引擎handlebars.js实用教程](http://www.cnblogs.com/iyangyuan/archive/2013/12/12/3471227.html)
-##### (5) less
+##### (5) less 推荐教程:[less中文网](http://www.bootcss.com/p/lesscss/)
 ##### (6) jade
 #### 约定及注意事项
 
