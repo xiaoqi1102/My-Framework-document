@@ -83,6 +83,10 @@ $ corodva plugin rm cordova-plugin-whitelist
 
 ```
 ##### (3) react
+
+```
+
+```
 ##### (4) redux
 ##### (5) react-redux
 ##### (6) react-router
