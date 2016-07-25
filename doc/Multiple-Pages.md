@@ -11,6 +11,7 @@
 - 将jade 编译成html 文件后缀: .jade
 - 将handlebar 编译成 js 模板方法  .handlebars .hbs
 - 其他资源整合
+
 ##### (3) ES6 推荐教程:[阮一峰ES6入门教程](http://es6.ruanyifeng.com/)
 ###### 要点:
 > * Promise
