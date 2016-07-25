@@ -84,8 +84,22 @@ $ corodva plugin rm cordova-plugin-whitelist
 ```
 ##### (3) react
 
+写一个组件:
 ```
+import React from 'react';
 
+const Account extends React.Component(){
+
+render(){
+return(
+<div>
+hello I am account;
+</div>
+)
+}
+}
+
+export default Account;a
 ```
 ##### (4) redux
 ##### (5) react-redux
