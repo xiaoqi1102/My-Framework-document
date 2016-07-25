@@ -36,13 +36,10 @@ $ ionic build
 
 ###### 常用插件:
 
-
+[相机](https://www.npmjs.com/package/cordova-plugin-camera):
 ```
-相机:
 $ cordova plugin add cordova-plugin-camera
 
-白名单:
-$ cordova piugin add cordova-plugin-whitelist
 
 上传/下载文件组件:
 $ cordova plugin add cordova-plugin-file-transfer
@@ -53,8 +50,15 @@ $ cordova plugin add https://github.com/VersoSolutions/CordovaClipboard
 消息通知:
 $ cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications
 
+```
+[白名单:]()
 
 ```
+
+$ cordova piugin add cordova-plugin-whitelist
+
+```
+
 ###### 其他命令
 
 ```
