@@ -162,5 +162,5 @@ const store = createStore(
   },
 
 ```
-> *  一般来说开发测试的命令为: npm start
+> *  开发测试的命令为: npm start
 > *  打包生成生成生产环境的文件: npm run build
