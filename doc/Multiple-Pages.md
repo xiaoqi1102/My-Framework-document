@@ -80,3 +80,4 @@ console.log(result);
 
 - 打包命令 $ npm start
 - 编译及打包的配置文件 gulpfile.js
+- 编程指导:  [JS函数式编程指南](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)
