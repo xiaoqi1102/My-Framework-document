@@ -2,7 +2,7 @@
 #### [1] 框架主要思路:
 - 单向数据流
 - react 基于状态机的dom渲染
-
+- react 生命周期
 #### [2]相关第三方类库及示例:
 ##### (1)ionic 
 ###### 使用示例:
@@ -89,7 +89,10 @@ $ corodva plugin rm cordova-plugin-whitelist
 import React from 'react';
 
 const Account extends React.Component(){
-
+ constructor(props) {
+    super(props);
+    this.state = {accountList:{data:[]}};
+  }
 render(){
 return(
 <div>
