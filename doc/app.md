@@ -91,12 +91,13 @@ import React from 'react';
 const Account extends React.Component(){
  constructor(props) {
     super(props);
-    this.state = {accountList:{data:[]}};
+    //初始化当前组件state
+    this.state = {name:'小齐'};
   }
 render(){
 return(
 <div>
-hello I am account;
+hello I am {this.state.name};
 </div>
 )
 }
