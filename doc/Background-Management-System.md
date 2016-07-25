@@ -2,7 +2,12 @@
 #### [1]相关第三方类库及示例:
 ##### (1) react
 ##### (2) react-router
-##### (3) redux
+##### (3)  推荐教程[Redux 中文文档](http://cn.redux.js.org/index.html)
+###### 要点:
+- 应用中所有的 state 都以一个对象树的形式储存在一个单一的 store 中。
+- 惟一改变 state 的办法是触发 action，一个描述发生什么的对象。
+- 为了描述 action 如何改变 state 树，你需要编写 reducers。
+
 ##### (4)  [redux-chunk](https://github.com/gaearon/redux-thunk)
 
 ###### 说明:用于使用异步action,用法比较简单,在项目中加配置即可
