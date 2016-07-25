@@ -7,6 +7,11 @@
 ### 1. app
 #### 主要技术:
 ##### ionic 
+###### 使用示例:
+```
+安装:
+$ npm install ionic -g 
+```
 ##### cordova
 ##### react
 ##### redux
