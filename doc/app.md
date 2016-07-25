@@ -1,4 +1,11 @@
 ###  app单页应用程序架构
+#### [0] 简述:
+> * 使用cordova 做为app 打包方案
+> * 使用ionic 作为app 的基础样式库 
+> * 使用react 作为组件化开发方案 
+> * 使用react-router 作为路由
+> * redux react-redux redux-thunk 做状态管理
+
 #### [1] 框架主要思路:
 - 单向数据流
 - react 基于state状态机的dom渲染,推荐文章:[React 源码剖析系列 － 解密 setState](https://zhuanlan.zhihu.com/p/20328570?refer=purerender)
@@ -117,6 +124,20 @@ export default Account;
 - react-router 有多种路由可选,browserHistory 必须有服务器端支持 ,没有服务器端支持的同学自觉使用 hashHistory
 
 ##### (7) [redux-chunk](https://github.com/gaearon/redux-thunk)
+
+```
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import rootReducer from './reducers/index';
+
+// Note: this API requires redux@>=3.1.0
+const store = createStore(
+  rootReducer,
+  applyMiddleware(thunk)
+);
+
+```
+
 ###### 说明:用于使用异步action,用法比较简单,在项目中加配置即可
 ##### (8) webpack
 ###### 说明:用于jsx css img 等文件的编译打包方案
