@@ -30,6 +30,13 @@ $ ionic build ios
 $ ionic build 
 ```
 ##### cordova
+
+###### 常用插件:
+
+- 相机:
+```
+$ cordova plugin add cordova-plugin-camera
+```
 ##### react
 ##### redux
 ##### react-redux
