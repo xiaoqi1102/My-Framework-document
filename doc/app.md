@@ -42,7 +42,7 @@ $ cordova plugin add cordova-plugin-camera
 
 
 ```
-[白名单:]()
+[白名单:](https://www.npmjs.com/package/cordova-plugin-whitelist)
 
 ```
 
