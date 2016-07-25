@@ -3,7 +3,25 @@
 ##### (1) react
 ##### (2) react-router
 ##### (3) redux
-##### (4) redux-thunk
+##### (4)  [redux-chunk](https://github.com/gaearon/redux-thunk)
+
+###### 说明:用于使用异步action,用法比较简单,在项目中加配置即可
+          
+ ```
+ 
+ import { createStore, applyMiddleware } from 'redux';
+ import thunk from 'redux-thunk';
+ import rootReducer from './reducers/index';
+ 
+ // Note: this API requires redux@>=3.1.0
+ const store = createStore(
+   rootReducer,
+   applyMiddleware(thunk)
+ );
+ 
+ 
+ ```
+          
 ##### (5) [react-bootstrap](http://react-bootstrap.github.io/)
 ##### (6) webpack
 ###### 说明:用于jsx css img 等文件的编译打包方案
@@ -28,3 +46,5 @@
 ```
 > *  开发测试的命令为: npm start
 > *  打包生成生成生产环境的文件: npm run build
+> * react 项目中的编程方式倾向于 ES6简洁 的编程语法
+> * 使用babel 进行ES6 的编译 相关链接:
