@@ -41,6 +41,17 @@ $ ionic build ios
 打包全部平台:
 $ ionic build 
 ```
+######  [Automating Icons and Splash Screens](http://blog.ionic.io/automating-icons-and-splash-screens/)
+ 
+> * 在resources 中放置 icon.png 和 splash.png ,然后执行命令:
+
+```
+ $ ionic resources
+```
+> 那么该操作进行的操作是,将icon.png splash.png 作为源图片 ,上传到ionic的服务器,
+> 并将适配多种尺寸屏幕的图片下载下来 存入resources目录下
+> 值得注意的是 图片的尺寸是有相关要求的 ,详情请自行看文章链接
+
 ##### (2)cordova
 
 ###### 常用插件:
