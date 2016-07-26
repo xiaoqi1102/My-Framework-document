@@ -21,3 +21,5 @@
 #### 详细约定 :
 > * 特别说明:js/common/parameter/parameter.js  封装了设置参数和读取参数的方法,当前是将参数封装在localStorage中
 > js/common/name/nameSpace.js 系统常量的模块 便于对常量的值进行配置
+> * js 目录下只有entrance下的文件会被直接编译,common目录下是通用的模块 ,是通过 ES6 module 方式被引入 并使用,也就是说某一个模块
+> 或者说某一个函数可被复用  那么应该放在common 目录下 ,这是当前项目的约定

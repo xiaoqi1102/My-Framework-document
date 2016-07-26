@@ -26,3 +26,9 @@
  ```
  $  supervisor server.js
  ```
+ 
+ > * 编译的命令是:
+ 
+ ```
+ $ npm start
+ ```
