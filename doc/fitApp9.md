@@ -177,3 +177,6 @@ const store = createStore(
  hashHistory.replace(system.indexRoute);
 
 ```
+##### 可以优化的点
+> * action 的调用可以用 redux 的 bindActionCreators 进行优化
+> * action 和reducers 可以拆分成多个文件 以便于维护
