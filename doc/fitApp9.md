@@ -169,3 +169,11 @@ const store = createStore(
 > * 新增一个数据,提交给后台接口的主键id 约定为 16进制的0: 0000000000000000
 > * 使用redux 对状态进行及中管理,以触发action的方式修改state ,而react 是基于状态的dom,
 > 那么通过修改state 就实现了不同组件间的通讯
+> * 关于FitApp中的动态路由的实现由一点需要注意: 在router.js 组件中 采用了 state.system.indexRoute 这个状态存储了
+> 当前的默认路由 即app打开时进入的第一个页面,存储在state的同时也在localStorage做了缓存
+> 开发时可注释掉一下这行代码,因为这一行代码,会在每一次刷新都会跳转到默认路由,当然app是单页应用程序,不会有刷新,但是会给开发带来一些麻烦:
+
+```
+ hashHistory.replace(system.indexRoute);
+
+```
