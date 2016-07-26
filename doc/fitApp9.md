@@ -177,6 +177,8 @@ const store = createStore(
  hashHistory.replace(system.indexRoute);
 
 ```
+>* app是单页应用程序所以只用index.html 这一个html,index.html 是根据 template.html编译而来  也是就是说template.html 才是被维护的源码
+> 请勿直接修改index.html
 ##### 可以优化的点
 > * action 的调用可以用 redux 的 bindActionCreators 进行优化
 > * action 和reducers 可以拆分成多个文件 以便于维护
