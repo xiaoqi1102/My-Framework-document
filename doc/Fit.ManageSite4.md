@@ -20,5 +20,9 @@
 
  ```
  $ npm install supervisor -g 
+ ```
+ > 然后启动开发 服务器的命令是 
  
+ ```
+ $  supervisor server.js
  ```
