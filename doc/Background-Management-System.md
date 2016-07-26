@@ -52,4 +52,4 @@
 > *  开发测试的命令为: npm start
 > *  打包生成生成生产环境的文件: npm run build
 > * react 项目中的编程方式倾向于 ES6简洁 的编程语法
-> * 使用babel 进行ES6 的编译 相关链接:
+> * 使用babel 进行ES6 的编译 相关链接: [Babel 入门教程](http://www.ruanyifeng.com/blog/2016/01/babel.html)
