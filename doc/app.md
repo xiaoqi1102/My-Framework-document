@@ -52,6 +52,7 @@ $ ionic build
 > 并将适配多种尺寸屏幕的图片下载下来 存入resources目录下
 > 值得注意的是 图片的尺寸是有相关要求的 ,详情请自行看文章链接
 
+###### [ionic PROBLEM ](http://www.ayqy.net/blog/ionic%E5%BC%80%E5%8F%91%E8%B7%A8%E5%B9%B3%E5%8F%B0app%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/)
 ##### (2)cordova
 
 ###### 常用插件:
