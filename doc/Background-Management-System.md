@@ -16,9 +16,21 @@
 ```
 ##### (3) redux 推荐教程:[Redux 中文文档](http://cn.redux.js.org/index.html)
 ###### 要点:
-- 应用中所有的 state 都以一个对象树的形式储存在一个单一的 store 中。
-- 惟一改变 state 的办法是触发 action，一个描述发生什么的对象。
-- 为了描述 action 如何改变 state 树，你需要编写 reducers。
+> * 应用中所有的 state 都以一个对象树的形式储存在一个单一的 store 中。
+> * 惟一改变 state 的办法是触发 action，一个描述发生什么的对象。
+> * 为了描述 action 如何改变 state 树，你需要编写 reducers。
+###### 示例:
+
+```
+//创建一个reducers 
+import { combineReducers } from 'redux'
+import todos from './todos'
+import counter from './counter'
+export default combineReducers({
+  todos,
+  counter
+})
+```
 
 ##### (4)  [redux-chunk](https://github.com/gaearon/redux-thunk)
 
