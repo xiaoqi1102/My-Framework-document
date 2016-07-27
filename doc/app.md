@@ -136,8 +136,17 @@ export default Account;
 ##### (5) react-redux
 ##### (6) [react-router](https://github.com/reactjs/react-router)
 ###### 要点:
-- react-router 有多种路由可选,browserHistory 必须有服务器端支持 ,没有服务器端支持的同学自觉使用 hashHistory
+> * react-router 有多种路由可选,browserHistory 必须有服务器端支持 ,没有服务器端支持的同学自觉使用 hashHistory
+###### 关键api:
 
+```
+//跳转到另一个路由路径:
+ hashHistory.push('...')
+//替换当前路由:
+ hashHistory.replace('...')
+//返回上级路由
+ hashHistory.goBack();
+```
 ##### (7) [redux-chunk](https://github.com/gaearon/redux-thunk)
 ###### 说明:用于使用异步action,用法比较简单,在项目中加配置即可
 

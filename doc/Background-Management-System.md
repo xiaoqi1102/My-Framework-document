@@ -2,6 +2,18 @@
 #### [1]相关第三方类库及示例:
 ##### (1) react
 ##### (2) react-router
+###### 关键api:
+> * react-router 有多种路由可选,browserHistory 必须有服务器端支持 ,没有服务器端支持的同学自觉使用 hashHistory
+###### 关键api:
+
+```
+//跳转到另一个路由路径:
+ hashHistory.push('...')
+//替换当前路由:
+ hashHistory.replace('...')
+//返回上级路由
+ hashHistory.goBack();
+```
 ##### (3) redux 推荐教程:[Redux 中文文档](http://cn.redux.js.org/index.html)
 ###### 要点:
 - 应用中所有的 state 都以一个对象树的形式储存在一个单一的 store 中。
