@@ -59,7 +59,7 @@ $ cordova piugin add cordova-plugin-whitelist
 
 ```
 
-[上传/下载文件组件:]()
+[上传/下载文件组件:](https://www.npmjs.com/package/cordova-plugin-file-transfer)
 
 ```
 
@@ -67,14 +67,14 @@ $ cordova plugin add cordova-plugin-file-transfer
 
 ```
 
-[剪切板 :]()
+[剪切板 :](https://github.com/VersoSolutions/CordovaClipboard)
 ```
 
 $ cordova plugin add https://github.com/VersoSolutions/CordovaClipboard
 
 ```
 
-[消息通知:]()
+[消息通知:](https://github.com/katzer/cordova-plugin-local-notifications)
 ```
 
 $ cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications
@@ -178,7 +178,7 @@ const store = createStore(
 
 ```
 >* app是单页应用程序所以只用index.html 这一个html,index.html 是根据 template.html编译而来  也是就是说template.html 才是被维护的源码
-> 请勿直接修改index.html
+> 请勿直接修改index.html,template.html 的文件位置是当前项目的根目录下,至于index.html 的生成规则,是使用html-webpack-plugin,进行配置,详情可见webpack 配置文件
 
 ##### 可以优化的点:
 
