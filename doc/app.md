@@ -183,6 +183,66 @@ const store = createStore(
 - 各种plugin 
 
 ##### (9) [material-ui@0.14.4](http://www.material-ui.com/v0.14.4/)
+##### (10) ES6 推荐教程:[阮一峰ES6入门教程](http://es6.ruanyifeng.com/)
+###### 要点:
+> * Promise 示例:
+
+```
+let getData=(id)=>{
+   return new Promise(function(resolve,reject){
+   $.ajax({
+   url:'http://192.168.1.107:4000/account',
+   type:'get',
+   data:{accountId:id},
+   success:function(res){
+    resolve(res)
+   },
+   error(err){
+   reject(err);
+   }
+   }) 
+   })
+};
+//推荐使用promise的方式 添加回调
+getData('1212ads').then(function(res){
+console.log(res)
+
+},function(err){
+console.log(err)
+})
+
+```
+
+> * 箭头函数 
+
+```
+//函数写法 
+const getData=()=>{
+console.log('get data');
+}
+
+```
+
+> * 对象扩张 Object.assign 等方法 示例:
+
+
+```
+
+let a={a:123},b={name:'myName'}; 
+let c = Object.assign({},a,b);
+console.log(c);//Object {a: 123, name: "myName"}
+
+```
+
+> * 数组扩张  Array.find() 等方法,示例:
+
+```
+
+let array=[{id:1},{id:2}];
+let result=array.find(function(item,index){ return item.id==1});
+console.log(result);
+
+```
 ###### 说明:
 > 使用material-ui 中的一些组件
 #### [3] 约定及注意事项
