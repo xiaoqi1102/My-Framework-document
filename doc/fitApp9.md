@@ -14,6 +14,12 @@
 
 #### [2]相关第三方类库及示例:
 ##### (1)ionic 
+##### [ionic 组件库](http://ionicframework.com/docs/components/)
+> * 特别说明:
+> ionic 的组件库 本身是用于angularJS 开发app的,但是angular组件dom渲染的结果和一般的HTML的DOM
+> 是没有差别的,所以本项目是以ionic的css为样式库,定义了项目自身的react 组件
+
+##### [ionic icon 库](http://ionicons.com/)
 ###### 使用示例:
 ```
 安装:
