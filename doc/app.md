@@ -148,6 +148,7 @@ export default combineReducers({
 ##### (6) [react-router](https://github.com/reactjs/react-router)
 ###### 要点:
 > * react-router 有多种路由可选,browserHistory 必须有服务器端支持 ,没有服务器端支持的同学自觉使用 hashHistory
+> * 推荐教程:[React Router 使用教程](http://www.ruanyifeng.com/blog/2016/05/react_router.html)
 ###### 关键api:
 
 ```
